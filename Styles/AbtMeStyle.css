@@ -1,0 +1,50 @@
+/* file-name: AbtMeStyle.css
+   Name: Sohini Makar
+   description: Adding styles to the my website */
+/* adding style for home screens */
+/* style for home */
+#heading {
+	font-size: 42px;
+}
+
+.Profile_pic {
+	height: 200px;
+	widht: 200px;
+	border-radius: 50%;
+	border: 5px solid #FFF;
+}
+
+.MainContent p {
+	font-size: 20px;
+	line-height: 15%;
+}
+
+.MainContent {
+	margin-bottom: 10%;
+}
+
+.MainArticle {
+	width:96.4%;
+	margin-bottom: 20%;
+}
+
+/* style for making screens responsive */
+
+@media (max-width: 500px) {
+
+	.Profile_pic {
+		height: 150px;
+		widht: 150px;
+		border-radius: 50%;
+		border: 5px solid #FFF;
+	}
+
+	#heading {
+		font-size: 30px;
+	}
+
+	.MainContent p {
+		font-size: 16px;
+	}
+}
+

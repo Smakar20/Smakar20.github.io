@@ -1,0 +1,93 @@
+/* file-name: ResumeStyle.css
+   Name: Sohini Makar
+   description: Adding styles to the Resume page */
+.ResumeCont {
+	width: 65%; 
+	float: left;
+	margin-right: 3%;
+}
+
+.SideBar {
+	width: 28%;
+	float: right;
+}
+
+.FntBold {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#DwnlodResm {
+	width:150px; 
+	padding: 1.5%; 
+	background-color: #0080ff;
+	text-align: center;
+	font-size: 20px;
+}
+
+.ResumeBackgrnd {
+	width: 95%; 
+	margin: 0 1%;
+	overflow: hidden;
+	z-index: 100;
+}
+
+.SideLine {
+	line-height: 2px;
+}
+
+.CompWeb {
+	text-decoration: underline;
+}
+
+.FntHgLit a:hover {
+	color: #EC7063;
+}
+
+@media (max-width: 1000px) {
+
+	.SideBar {
+		width: 30%;
+	}
+}
+
+@media (max-width: 930px) {
+
+	.SideBar {
+		width: 34%;
+	}
+
+	.ResumeCont {
+		width: 63%; 
+	}
+}
+
+@media (max-width: 820px) {
+
+	.SideBar {
+		width: 36%;
+	}
+
+	.ResumeCont {
+		width: 60%; 
+	}
+}
+
+@media (max-width: 780px) {
+
+	.ResumeCont, .SideBar {
+		width: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.ResumeBackgrnd {
+		margin: 24% 1%;
+	}
+
+	#DwnlodResm {
+		width: 120px; 
+		padding: 1%; 
+	}
+}

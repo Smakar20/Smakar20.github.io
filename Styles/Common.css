@@ -1,0 +1,109 @@
+/* file-name: Common.css
+   Name: Sohini Makar
+   description: Adding styles to the my website */
+/* adding style for common header -- for home, about & resume screens */
+body {
+	text-align: center;
+	background: url("http://i.imgur.com/SX6Me28.jpg") 0 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: helvetica;
+	color: #FFF;
+	margin: 8% 0;
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.Color {
+	color: #63E6EC;
+}
+
+.Menu a:hover {
+	color: #EC7063;
+}
+
+.Menu {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 0;
+    position: relative;
+}
+
+.Menu li {
+	padding: 5px;
+	display: inline-block;
+}
+
+.nav {
+	float: right;
+	background: #666;
+}
+
+.header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+} 
+
+.content {
+	width: 90%;
+	padding: 0 5%;
+	margin: 0 auto;
+	text-align: justify;
+}
+
+.BackGrndTxt {
+	padding: 1% 1.5%; 
+	background-color: #000;
+	border-radius: 5px;
+	z-index: 5;
+}
+
+/* Image slider */
+.container div {
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* footer style -- common for home, resume & contact screens */
+.footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	color: #FFF;
+	background: #666;
+}
+
+.footer p {
+  font-size: 12px;
+}
+
+/* style for making screens responsive */
+
+@media (max-width: 500px) {
+
+	.Menu li {
+		display: block;
+	}
+
+	a, p, input {
+		font-size: 14px;
+	}
+
+	.footer p {
+  		font-size: 10px;
+	}
+}
+/*****************************/

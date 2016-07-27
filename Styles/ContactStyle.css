@@ -1,0 +1,66 @@
+
+form { 
+	max-width:500px; 
+  margin:10% auto; 
+}
+
+.feedback-input {
+  color:#000;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  border:1px solid #000;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: Helvetica;
+  width: 100%;
+  background:#CC4949;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#FFF;
+  font-size:24px;
+  padding:10px 0;
+  margin-top:-4px;
+  font-weight:bold;
+}
+[type="submit"]:hover { 
+	background:#EC7063; 
+}
+
+.ThankYou {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15%;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+   form {
+    margin-top: 27%;
+    margin-bottom: 40%;
+   } 
+	 .feedback-input, textarea {
+		font-size: 15px;
+	}
+
+	[type="submit"] {
+		font-size: 20px;
+	}
+
+  .ThankYou {
+    margin-top: 30%;
+  }
+}

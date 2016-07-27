@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!-- File-name: Contact.html
+     Name: Sohini Makar 
+     Description: This is the contact page -->
+<html>
+<head>
+	<title>Visitor's Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<!--style sheet -->
+	<link rel="stylesheet" type="text/css" href="Styles/Common.css" />
+	<link rel="stylesheet" href="Styles/ContactStyle.css" />
+</head>
+
+<body>
+	<!-- menu section -->
+	<div class="header">
+		<div class="nav">
+			<ul class="Menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Resume.html">Resume</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- main content -->
+	<div class="content">
+		<div id="formBlock">
+			<form id="someForm">
+				<div class="BackGrndTxt">
+				  	<input name="name" type="text" maxlength="30" tabindex="1" class="feedback-input" placeholder="Name(Required)" id="ViewerName" value="" />   
+				  	<input name="email" type="text" maxlength="40" tabindex="2" class="feedback-input" placeholder="Email(Required)" id="ViewerEmail" value="" />
+				  	<input name="phone" type="text" maxlength="20" tabindex="3" class="feedback-input" id="ViewerPh" placeholder="Phone No" />
+				  	<textarea name="comments" maxlength="200" tabindex="4" class="feedback-input" id="ViewerComnt" placeholder="Comment"></textarea>
+				  	<input type="submit" tabindex="5" value="SUBMIT" id="FrmSubmit" />
+				</div>
+			</form>
+		</div>
+		<!--Hidden div, will be displayed once the form is submitted. -->
+		<div id="thankyouBlock" style="display:none;" class="ThankYou">
+        	<p>Your details are saved. I will get back to you shortly.</p>
+    	</div>
+	</div>
+    <!-- footer section -->
+    <div class="foot">
+		<footer class="footer">
+	    		<p>&copy; Sohini Makar 2016</p>
+	    </footer>
+	</div>
+    <!-- footer ends -->
+ 	<!-- Scripts -->   
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="Scripts/Contact.js" type="text/javascript"></script>
+</body>
+</html>
